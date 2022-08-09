@@ -24,7 +24,7 @@ export const SectionHeader = styled.div`
   color: white;
   margin-bottom: 5rem;
 
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
 
   @media screen and (max-width: 768px) {
@@ -69,7 +69,6 @@ export const CardLink = styled(Link)`
 
   text-decoration: none;
   color: white;
-  font-family: "Poppins", sans-serif;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,4 +91,5 @@ export const CardText = styled.div`
 
   color: white;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 `;

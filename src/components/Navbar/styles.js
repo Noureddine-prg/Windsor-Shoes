@@ -10,6 +10,8 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 1rem;
   z-index: 999;
+
+  padding-left: 2.5rem;
 `;
 
 export const NavLink = styled(Link)`
@@ -22,7 +24,7 @@ export const NavLink = styled(Link)`
   font-size: 30px;
   cursor: pointer;
   align-items: flex-end;
-  border-right: 2.5px solid white;
+  border-right: 3px solid white;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   white-space: nowrap;

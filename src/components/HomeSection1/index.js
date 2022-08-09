@@ -14,6 +14,7 @@ const HomeSection1 = () => {
             to="/shop"
             activeStyle
             style={{
+              backgroundPositionY: `-104px`,
               backgroundImage: `url("https://images.unsplash.com/photo-1531310197839-ccf54634509e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVuJTIwc2hvZXN8ZW58MHx8MHx8&w=1000&q=80")`,
             }}
           >
